@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certifications</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        width: 98%;
+        margin: auto;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+        background-color: #5a827e;
+      }
+
+      .contact-information {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        padding: 40px;
+      }
+
+      .container {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .list {
+        font-weight: bold;
+        font-size: 20px;
+        padding: 20px;
+        background-color: #e7efc7;
+        border-radius: 5px;
+        text-align: center;
+        list-style-type: none;
+        line-height: 1.5;
+      }
+
+      .list::first-line {
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="contact-information">
+      Contact for Information and to Schedule a Tutoring Session!
+    </h1>
+    <article class="container">
+      <div class="email">
+        <ul class="list">
+          <li>Email</li>
+          <li>algebrabeagletutoring@gmail.com</li>          
+      </div>
+      <div class="wyzant">
+        <ul class="list">
+          <li>Wyzant Tutoring</li>
+          <li>https://www.wyzant.com/Tutors/CertifiedMathTeacherBill</li>
+        </ul>
+      </div>
+      <div class="desk-photo">
+        <img src="./tutoring-desk.jpg" alt="Picture of Math Tutor" />
+      </div>
+      <div class="logo">
+        <img src="./logo.png" alt="Algebra Beagle Logo" />
+      </div>
+    </article>
+  </body>
+</html>
