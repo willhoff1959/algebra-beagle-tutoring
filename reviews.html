@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Reviews</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .page-box {
+        width: 960px;
+        margin: 0 auto;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #087f5b;
+      }
+
+      .reviews {
+        color: #f5f5f5;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 32px;
+        margin-bottom: 48px;
+      }
+
+      .feedback {
+        color: bisque;
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.5;
+        background-color: #f4fce3;
+      }
+
+      h3 {
+        color: #2b8a3e;
+        margin-top: 24px;
+        margin-bottom: 32px;
+      }
+
+      .container {
+        display: grid;
+        gap: 40px;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .feedback {
+        color: #343a40;
+        border-radius: 18px;
+        padding: 20px;
+      }
+
+      .parent-review {
+        font-size: 20px;
+        margin-bottom: 16px;
+        font-weight: 500;
+      }
+      .parent {
+        font-size: 18px;
+        margin-bottom: 24px;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-box">
+      <h1 class="reviews">Reviews</h1>
+      <article class="container">
+        <div class="feedback">
+          <h3>Knowledgeable and patient teacher</h3>
+          <p class="parent-review">
+            We are very impressed with the tutor's teaching approach and
+            dedication. The materials prepared were of great quality. My child
+            has not only learned a lot but has also developed a deeper interest
+            in the subject!
+          </p>
+
+          <p class="parent">Sue, 12 lessons with William</p>
+        </div>
+
+        <div class="feedback">
+          <h3>Very patient and knowledgeable</h3>
+          <p class="parent-review">
+            Excellent teaching methods. Explained concepts perfectly and then
+            confirmed understanding through demonstrating knowledge on applying
+            to problems. Will definitely continue to work with William.
+          </p>
+          <p class="parent">James, 4 lessons with William</p>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>

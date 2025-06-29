@@ -2,80 +2,95 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Certifications</title>
     <style>
       * {
         margin: 0;
         padding: 0;
-        width: 98%;
-        margin: auto;
         box-sizing: border-box;
       }
 
+      .page-box {
+        width: 960px;
+        margin: 0 auto;
+      }
+
       body {
-        font-family: sans-serif;
+        font-family: "Inter", sans-serif;
         background-color: #333446;
       }
 
       .certifications {
-        color: bisque;
+        color: #f5f5f5;
         font-size: 40px;
         text-align: center;
-        padding: 40px;
+        margin-top: 32px;
+        margin-bottom: 64px;
       }
 
       .container {
         display: grid;
-        gap: 20px;
+        gap: 30px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        margin-bottom: 32px;
       }
 
       .list {
-        font-weight: bold;
+        font-weight: 500;
         font-size: 20px;
         padding: 20px;
         background-color: bisque;
-        border-radius: 5px;
+        border-radius: 16px;
         text-align: center;
         list-style-type: none;
         line-height: 1.5;
+        color: #343a40;
       }
     </style>
   </head>
   <body>
-    <h1 class="certifications">Certifications</h1>
-    <article class="container">
-      <div class="certification-1">
-        <ul class="list">
-          <li>Educator License Illinois</li>
-          <li>2024-2029</li>
-          <li>Mathematics Grade 5 through Grade 8.</li>
-          <li>Mathematics Senior HS-Grade 9 through Grade 12.</li>
-        </ul>
-      </div>
-      <div class="certification-2">
-        <ul class="list">
-          <li>Educator License Missouri</li>
-          <li>2012-2111</li>
-          <li>Mathematics Grade 5 through Grade 9.</li>
-          <li>Mathematics Senior HS-Grade 9 through Grade 12.</li>
-        </ul>
-      </div>
-      <div class="certification-3">
-        <ul class="list">
-          <li>Educator License Texas</li>
-          <li>2020-2026</li>
-          <li>Mathematics Grade 4 through Grade 8.</li>
-          <li>Mathematics Senior HS-Grade 8 through Grade 12.</li>
-        </ul>
-      </div>
-      <div class="certification-4">
-        <ul class="list">
-          <li>IXL Certified to use IXL Platform during Tutoring.</li>
-        </ul>
-      </div>
-    </article>
+    <div class="page-box">
+      <h1 class="certifications">Certifications</h1>
+      <article class="container">
+        <div class="certification-1">
+          <ul class="list">
+            <li>Educator License Illinois</li>
+            <li>2024-2029</li>
+            <li>Mathematics Grade 5 through Grade 8.</li>
+            <li>Mathematics Senior HS-Grade 9 through Grade 12.</li>
+          </ul>
+        </div>
+        <div class="certification-2">
+          <ul class="list">
+            <li>Educator License Missouri</li>
+            <li>2012-2111</li>
+            <li>Mathematics Grade 5 through Grade 9.</li>
+            <li>Mathematics Senior HS-Grade 9 through Grade 12.</li>
+          </ul>
+        </div>
+        <div class="certification-3">
+          <ul class="list">
+            <li>Educator License Texas</li>
+            <li>2020-2026</li>
+            <li>Mathematics Grade 4 through Grade 8.</li>
+            <li>Mathematics Senior HS-Grade 8 through Grade 12.</li>
+          </ul>
+        </div>
+        <div class="certification-4">
+          <ul class="list">
+            <li>IXL Certified to use IXL Platform during Tutoring.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
   </body>
 </html>
